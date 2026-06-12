@@ -1,0 +1,13 @@
+//
+// Created by Micheal on 2026/6/12.
+//
+
+#ifndef STEREOVISION3D_STEREOPROCESSOR_H
+#define STEREOVISION3D_STEREOPROCESSOR_H
+
+
+class StereoProcessor {
+};
+
+
+#endif //STEREOVISION3D_STEREOPROCESSOR_H

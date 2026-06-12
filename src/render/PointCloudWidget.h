@@ -1,0 +1,13 @@
+//
+// Created by Micheal on 2026/6/12.
+//
+
+#ifndef STEREOVISION3D_POINTCLOUDWIDGET_H
+#define STEREOVISION3D_POINTCLOUDWIDGET_H
+
+
+class PointCloudWidget {
+};
+
+
+#endif //STEREOVISION3D_POINTCLOUDWIDGET_H
