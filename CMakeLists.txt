@@ -5,13 +5,16 @@ set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTORCC ON)
 set(CMAKE_AUTOUIC ON)
+set(OpenCV_DIR "D:/download/opencv/opencv/build")
 
 
 find_package(Qt6 COMPONENTS
         Core
         Gui
         Widgets
+        OpenGL
         REQUIRED)
+find_package(OpenCV REQUIRED)
 
 add_executable(StereoVision3D src/main.cpp
         src/main.cpp
@@ -30,6 +33,7 @@ target_link_libraries(StereoVision3D
         Qt::Core
         Qt::Gui
         Qt::Widgets
+        ${OpenCV_LIBS}
 )
 
 if (WIN32 AND NOT DEFINED CMAKE_TOOLCHAIN_FILE)
